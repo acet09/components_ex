@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import UserCardWrapper from './components/UserCardWrapper';
+import ItemContainer from './components/ItemContainer';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <UserCardWrapper></UserCardWrapper>
+        <ItemContainer></ItemContainer>
       </div>
     );
   }
