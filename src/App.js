@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import ItemContainer from './components/ItemContainer';
+import SwitchContainer from './components/SwitchContainer';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ItemContainer></ItemContainer>
+        <SwitchContainer></SwitchContainer>
       </div>
     );
   }
